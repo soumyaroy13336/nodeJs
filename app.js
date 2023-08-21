@@ -44,6 +44,7 @@ app.get('/users', function(req, res) {
     responseData += '</ul>';
   
     res.send(responseData);
+    
   });
 
 app.listen(3002)
